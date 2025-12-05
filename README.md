@@ -88,7 +88,7 @@ El sistema utiliza un **MessageDispatcher** centralizado que:
 
 ### Arquitectura
 - **Programación Orientada a Objetos**: Clases para agentes, capacidades y habilidades
-- **Herencia Múltiple**: Agentes heredan capacidades (EvaluationCapacity, CommunicativeCapacity)
+- **Herencia Múltiple**: Agentes heredan capacidades (CapacidadEvaluacion, CapacidadComunicativa)
 - **Patrón Singleton**: MessageDispatcher global
 - **Protocolo de Mensajería**: Sistema de eventos basado en FIPA Performatives
 
@@ -354,7 +354,7 @@ Los diagramas de secuencia muestran la interacción temporal entre los participa
 Muestra el proceso de evaluación del mercado por parte de los inversores.
 
 <p align="center">
-  <img src="uml/secuencia_evaluar_mercado.png" alt="Diagrama de Ontologías" style="max-width: 100%; height: auto;" />
+  <img src="uml/secuencia_evaluar_mercado.png" alt="Secuencia - Evaluar Mercado" style="max-width: 100%; height: auto;" />
 </p>
 
 
@@ -364,7 +364,7 @@ Muestra el proceso de evaluación del mercado por parte de los inversores.
 Muestra el protocolo FIPA Contract Net Protocol completo para negociar transacciones.
 
 <p align="center">
-  <img src="uml/secuencia_negociar_transacciones.png" alt="Diagrama de Ontologías" style="max-width: 100%; height: auto;" />
+  <img src="uml/secuencia_negociar_transacciones.png" alt="Secuencia - Negociar Transacciones" style="max-width: 100%; height: auto;" />
 </p>
 
 #### 5.3.3. Secuencia - Gestionar Mercado
@@ -373,12 +373,20 @@ Muestra el protocolo FIPA Contract Net Protocol completo para negociar transacci
 Muestra el proceso de gestión del mercado.
 
 <p align="center">
-  <img src="uml/secuencia_gestionar_mercado.png" alt="Diagrama de Ontologías" style="max-width: 100%; height: auto;" />
+  <img src="uml/secuencia_gestionar_mercado.png" alt="Secuencia - Gestionar Mercado" style="max-width: 100%; height: auto;" />
 </p>
 
 ---
 
-## 6. Conclusión
+## 6. Interfaz de Usuario Web
+
+<p align="center">
+  <img src="preview.png" alt="Interfaz Web" style="max-width: 100%; height: auto;" />
+</p>
+
+---
+
+## 7. Conclusión
 
 Este proyecto demuestra la implementación de un sistema multiagente utilizando:
 - **Protocolos estándar** (FIPA Contract Net Protocol) para comunicación
